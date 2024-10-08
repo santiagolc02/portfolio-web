@@ -1,14 +1,73 @@
 .navbar {
     width: 100vw;
     height: 10vh;
-    background-color:  #ff0000;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navbar-texts {
+.navbar-buttons {
     display: flex;
-    
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    height: 55%;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 30px;
+}
+
+.navbar-button {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-button-home {
+    width: 25%;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-button-skills {
+    width: 25%;
+    height: 100%;
+    background-color: var(--skills-color);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-button-projects {
+    width: 25%;
+    height: 100%;
+    background-color: var(--projects-color);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-button-about {
+    width: 25%;
+    height: 100%;
+    background-color: var(--about-color);
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }

@@ -1,15 +1,22 @@
+import { useState } from 'react';
 import './Navbar.css'
+import { motion } from 'framer-motion';
 
-const Navbar = () => {
+const Navbar = ({ display, setDisplay }) => {
     return (
-        <div className="navbar">
-            <div className="navbar-texts">
-                <h1>Home</h1>
-                <h1>Skills</h1>
-                <h1>Projects</h1>
-                <h1>About</h1>
+        <motion.div 
+            initial={{ opacity: 0, y: -100 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1, ease: 'easeOut' }}
+            className="navbar"
+            >
+            <div className="navbar-buttons">
+                <button className='navbar-button' onClick={() => setDisplay('home')}>Home</button>
+                <button className='navbar-button' onClick={() => setDisplay('skills')}>Skills</button>
+                <button className='navbar-button' onClick={() => setDisplay('projects')}>Projects</button>
+                <button className='navbar-button' onClick={() => setDisplay('about')}>About</button>
             </div>
-        </div>
+</motion.div>
     )
 }
 
