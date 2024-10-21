@@ -1,21 +1,41 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: var(--primary-font);
 }
 
 :root {
-    --primary-color: #5900ff;
-    --skills-color: rgb(255, 132, 0);
-    --projects-color: rgb(255, 0, 0);
-    --about-color: rgb(41, 137, 0);
-    --about-color: #070093;
+    --primary-color: rgb(157, 81, 0);
+    --primary-font: "Mulish", sans-serif;
+    
 }
 
-body {
+html, body {
     background: radial-gradient(circle at 50% -120%, #000000 0%, 
                                                     #000000 75%,
                                                     var(--primary-color) 90%,
                                                     var(--primary-color) 100%);
     height: 100vh;
     width: 100vw;
+    overflow: hidden;
+}
+
+.home-div {
+    width: 100%;
+    height: 90vh;
+}
+
+.skills-div {
+    width: 100%;
+    height: 90vh;
+}
+
+.projects-div {
+    width: 100%;
+    height: 90vh;
+}
+
+.about-div {
+    width: 100%;
+    height: 90vh;
 }
