@@ -19,8 +19,8 @@ function App() {
                         className='home-div'
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, transition: { duration: 0.5 }, y: -30 }} // Add duration to exit
-                        transition={{ duration: 0.5, ease: 'easeOut' }}>
+                        exit={{ opacity: 0, transition: { duration: 0.2 }, y: -30 }} // Add duration to exit
+                        transition={{ duration: 0.2, ease: 'easeOut' }}>
                         <Home />
                     </motion.div>
                 );
@@ -32,8 +32,8 @@ function App() {
 						className='skills-div'
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, transition: { duration: 0.5 }, y: -30 }} // Add duration to exit
-                        transition={{ duration: 0.5, ease: 'easeOut' }}>
+                        exit={{ opacity: 0, transition: { duration: 0.2 }, y: -30 }} // Add duration to exit
+                        transition={{ duration: 0.2, ease: 'easeOut' }}>
                         <Skills />
                     </motion.div>
                 );
@@ -45,8 +45,8 @@ function App() {
                         key="projects" // Unique key for projects
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, transition: { duration: 0.5 }, y: -30 }} // Add duration to exit
-                        transition={{ duration: 0.5, ease: 'easeOut' }}>
+                        exit={{ opacity: 0, transition: { duration: 0.2 }, y: -30 }} // Add duration to exit
+                        transition={{ duration: 0.2, ease: 'easeOut' }}>
                         <Projects />
                     </motion.div>
                 );
@@ -58,8 +58,8 @@ function App() {
                         key="about" // Unique key for about
                         initial={{ opacity: 0, y: -30 }}
                         animate={{ opacity: 1, y: 0 }}
-                        exit={{ opacity: 0, transition: { duration: 0.5 }, y: -30 }} // Add duration to exit
-                        transition={{ duration: 0.5, ease: 'easeOut' }}>
+                        exit={{ opacity: 0, transition: { duration: 0.2 }, y: -30 }} // Add duration to exit
+                        transition={{ duration: 0.2, ease: 'easeOut' }}>
                         <About />
                     </motion.div>
                 );

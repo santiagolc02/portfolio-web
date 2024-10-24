@@ -5,11 +5,11 @@ import DButton from '../dButton/DButton';
 const Home = () => {
     return (
         <div className='home'>
-            <img src={Image} alt=''></img>
+            <img src={Image} alt='' className='home-img'></img>
             <br />
-            <h1>Santiago Lozano</h1>
+            <h1>Hi! I'm Santiago Lozano</h1>
             <br />
-            <p>Software Engineer | Full Stack & iOS Developer</p>
+            <p>Software Engineer | Full Stack & Mobile Developer</p>
             <br />
             <DButton></DButton>
         </div>

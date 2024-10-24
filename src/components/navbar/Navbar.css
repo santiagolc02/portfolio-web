@@ -15,7 +15,7 @@
     height: 55%;
     /* border: 1px solid rgb(66, 66, 66); */
     border-radius: 30px;
-    box-shadow: 0 0 30px var(--primary-color);
+    box-shadow: 0 0 15px white;
 }
 
 .navbar-button {
@@ -23,7 +23,7 @@
     height: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
-    font-size: 20px;
+    font-size: 1vw;
     border-radius: 30px;
     border: none;
     cursor: pointer;
