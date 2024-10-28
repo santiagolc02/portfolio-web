@@ -6,11 +6,8 @@ const Skill = ({ props }) => {
         <motion.div className='skill'
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
-        transition={{
-            type: "spring",
-            stiffness: 260,
-            damping: 20
-        }}>
+        
+        whileHover={{ scale: 1.03 }}>
             <img src={props.img} alt='' className='skill-img'></img>
             <h4>{props.name}</h4>
         </motion.div>

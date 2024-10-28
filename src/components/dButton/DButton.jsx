@@ -9,7 +9,6 @@ const DButton = () => {
             whileTap={{ scale: 0.9 }}
             transition={{ type: "spring", stiffness: 500, damping: 30 }}
             >
-            
             <p className='button-text'>Download CV</p>
         </motion.button>
     )

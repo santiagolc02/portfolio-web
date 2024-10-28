@@ -1,0 +1,16 @@
+.project {
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: rgb(33, 33, 33);
+}
+
+.project-img {
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
